@@ -1,48 +1,31 @@
-<?xml version = "1.0" encoding ="UTF-8" />
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <menu>
     <section name="Swords">
         <entry>
-             <item>Wado Ichimonji</item>
-             <price>2000</price>     
+            <item>Wado Ichimonji</item>
+            <price>2000</price>
         </entry>
-
         <entry>
-             <item>Sandai Kitetsu</item>
-             <price>5000</price>     
+            <item>Sandai Kitetsu</item>
+            <price>5000</price>
         </entry>
-
-        <entry Limited ="true">
-             <item>Enma Sword</item>
-             <price>10000</price>     
+        <entry Limited="true">
+            <item>Enma Sword</item>
+            <price>10000</price>
         </entry>
     </section>
-
     <section name="Armor">
         <entry>
-             <item>Light Daedric armor</item>
-             <price>3500</price>     
+            <item>Light Daedric armor</item>
+            <price>3500</price>
         </entry>
-
         <entry>
-             <item>heavy Daedric armor</item>
-             <price>5000</price>     
+            <item>heavy Daedric armor</item>
+            <price>5000</price>
         </entry>
-
-        <entry Limited ="true">
-             <item>Dragonscale armor</item>
-             <price>9000</price>
-     
+        <entry Limited="true">
+            <item>Dragonscale armor</item>
+            <price>9000</price>
+        </entry>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
 </menu>
