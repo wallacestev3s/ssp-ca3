@@ -28,7 +28,7 @@ function calculateBill(idMenuTable) {
 };
 // This function either turns on or off the row highlighting for vegetarian
 // items (depending on the value of bShowVeg)
-function highlightVegetarian(idTable, bShowVeg) {
+function highlightLimited(idTable, bShowLim) {
     // if bShowVeg is true, then we're highlighting vegetarian
     //	meals, otherwise we're unhighlighting them.
     var i = 0;
@@ -39,7 +39,7 @@ function highlightVegetarian(idTable, bShowVeg) {
     // "vegetarian" attribute on it.
     for (i = 0; i < aTRs.length; i++) {
         if (aTRs[i].getAttribute('Limited') && aTRs[i].getAttribute('Limited') == "true") {
-            if (bShowVeg) {
+            if (bShowLim) {
                 aTRs[i].style.backgroundColor = "lightGreen";
             } else {
                 aTRs[i].style.backgroundColor = "";
@@ -63,7 +63,7 @@ window.addEventListener("load", function () {
     document.querySelector("#calcBill").addEventListener("click", function () {
         document.forms[0].txtBillAmt.value = calculateBill('menuTable');
     });
-    document.querySelector("#showVeg").addEventListener("click", function () {
-        highlightVegetarian('menuTable', this.checked);
+    document.querySelector("#showLim").addEventListener("click", function () {
+        highlightLimited('menuTable', this.checked);
     });
 });
