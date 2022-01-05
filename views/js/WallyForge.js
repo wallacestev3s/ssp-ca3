@@ -38,7 +38,7 @@ function highlightLimited(idTable, bShowLim) {
     // walk through each of the table rows and see if it has a 
     // "vegetarian" attribute on it.
     for (i = 0; i < aTRs.length; i++) {
-        if (aTRs[i].getAttribute('Limited') && aTRs[i].getAttribute('Limited') == "true") {
+        if (aTRs[i].getAttribute('limited') && aTRs[i].getAttribute('limited') == "true") {
             if (bShowLim) {
                 aTRs[i].style.backgroundColor = "lightGreen";
             } else {

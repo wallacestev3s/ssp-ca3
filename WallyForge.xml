@@ -3,15 +3,15 @@
     <section name="Swords">
         <entry>
             <item>Wado Ichimonji</item>
-            <price>2000</price>
+            <price>2.000</price>
         </entry>
         <entry>
             <item>Sandai Kitetsu</item>
-            <price>5000</price>
+            <price>5.000</price>
         </entry>
-        <entry Limited="true">
+        <entry limited="true">
             <item>Enma Sword</item>
-            <price>10000</price>
+            <price>10.000</price>
         </entry>
     </section>
     <section name="Armor">
@@ -21,11 +21,11 @@
         </entry>
         <entry>
             <item>heavy Daedric armor</item>
-            <price>5000</price>
+            <price>5.000</price>
         </entry>
-        <entry Limited="true">
+        <entry limited="true">
             <item>Dragonscale armor</item>
-            <price>9000</price>
+            <price>9.000</price>
         </entry>
     </section>
 </menu>

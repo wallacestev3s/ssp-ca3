@@ -18,8 +18,8 @@
                 </tr>
                 <xsl:for-each select="entry">
                     <tr id="{position()}">
-                        <xsl:attribute name="Limited">
-                            <xsl:value-of select="boolean(@Limited)" />
+                        <xsl:attribute name="limited">
+                            <xsl:value-of select="boolean(@limited)" />
                         </xsl:attribute>
                         <td align="center">
                             <input name="item0" type="checkbox" />
