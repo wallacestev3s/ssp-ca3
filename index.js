@@ -9,6 +9,11 @@ const http = require('http'), // this module provides the HTTP server
 const router = express(),     //creating an instance through express
       server = http.createServer(router);// This instance allow the server to be serving the requests
 
+router.use(express.static(path.resolve(__dirname,'views')));
+//static content from views folder
+
+
+
  router.get('/', function(req,res){
         res.writeHead(200,{'Content-Type' : 'text/html'});
         // 200 means that our page exist.
