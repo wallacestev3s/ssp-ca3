@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
@@ -16,7 +17,7 @@
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
   crossorigin="anonymous"></script>
         <script src="js/table.js"></script>
-        <script src="js/WallyForge.js"></script>
+        <script defer src ="js/WallyForge.js"></script>
     </head>
     <body>
         <!-- Responsive navbar-->
@@ -39,7 +40,30 @@
                     <h1>Welcome to Wally Forge blacksmith</h1>
                     <p class="lead">Select the best warrior equipments from the menu below</p>
                 </div>
+
                 <div id="results" class="col-lg-8 mb-5 order-2"></div>
+
+                <div id="menu" class="col-lg-4 mb-5 order-1">
+                    <input type="checkbox" name="cbOpts"
+                                        value="limited" id="bShowLim"  /> limited Products</a>
+                    <form enctype="application/json" action="/post/json" method="post">
+                        <div class="form-group">
+                            <select class="form-control" name="sec_n">
+                                <option value="0">Swords</option>
+                                <option value="1">Armor</option>
+                                
+                            </select>
+                            <input class="form-control mt-3" type="text" name="item" placeholder="Item" required pattern="[A-Za-z]{1,60}">
+                            <p class="text-muted text-center">Only text is accepted </p>
+                            <input class="form-control mt-3" type="number" name="price" placeholder="Price" required>
+                            <p class="text-muted text-center">Only number is allowed </p>
+                            <div class="d-grid gap-2"><button type="submit" class="btn btn-primary btn-block mt-3"  >Submit</button></div>
+                        </div>
+                    </form>
+                    <div class="d-grid gap-2">
+                    <button id="delete" class="btn btn-danger btn-block mt-3"onclick="doSomething()" >Delete</button></div>
+                    <p class="text-muted text-center">To delete an entree, click the required row first</p>
+                </div>
                
             </div>
         </div>

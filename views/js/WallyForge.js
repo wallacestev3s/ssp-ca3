@@ -67,3 +67,10 @@ window.addEventListener("load", function () {
         highlightLimited('menuTable', this.checked);
     });
 });
+
+
+function doSomething(){
+    
+    alert("hey im doing something");
+    
+    }

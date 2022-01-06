@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <menu>
-    <section name="Swords">
-        <entry>
+  <section name="Swords"/>
+    <entry>
             <item>Wado Ichimonji</item>
             <price>2.000</price>
         </entry>
@@ -15,17 +15,17 @@
         </entry>
     </section>
     <section name="Armor">
-        <entry>
-            <item>Light Daedric armor</item>
-            <price>3500</price>
-        </entry>
-        <entry>
-            <item>heavy Daedric armor</item>
-            <price>5.000</price>
-        </entry>
-        <entry limited="true">
-            <item>Dragonscale armor</item>
-            <price>9.000</price>
-        </entry>
-    </section>
+    <entry>
+      <item>Light Daedric armor</item>
+      <price>3500</price>
+    </entry>
+    <entry>
+      <item>heavy Daedric armor</item>
+      <price>5.000</price>
+    </entry>
+    <entry limited="true">
+      <item>Dragonscale armor</item>
+      <price>9.000</price>
+    </entry>
+  </section>
 </menu>
