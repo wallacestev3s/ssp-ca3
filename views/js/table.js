@@ -1,6 +1,6 @@
 function draw_table()
 {
-	$("#results").empty();  // targetting the element results
+	$("#results").empty();
 	$.getJSONuncached = function (url)
 	{
 		return $.ajax(
@@ -17,7 +17,7 @@ function draw_table()
 	};
 	$.getJSONuncached("/get/html")
 };
-//
+
 
 function select_row()
 {
