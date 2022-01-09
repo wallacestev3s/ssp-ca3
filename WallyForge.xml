@@ -9,10 +9,10 @@
       <item>Sandai Kitetsu</item>
       <price>5.000</price>
     </entry>
-   <entry limited="true">
-            <item>Enma Sword</item>
-            <price>10.000</price>
-        </entry>
+    <entry limited="true">
+      <item>Enma Sword</item>
+      <price>10.000</price>
+    </entry>
   </section>
   <section name="Armor">
     <entry>

@@ -53,8 +53,10 @@
                                 <option value="1">Armor</option>
                         
                             </select>
-                            <input class="form-control mt-3" type="text" name="item" placeholder="Item">
-                            <input class="form-control mt-3" type="text" name="price" placeholder="Price">
+                            <input class="form-control mt-3" type="text" name="item" placeholder="Item" pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}"required="required">
+                            <p class="text-muted text-center">Only text is allowed </p>
+                            <input class="form-control mt-3" type="number" name="price" placeholder="Price" required="required">
+                            <p class="text-muted text-center">Only number is allowed </p>
                             <div class="d-grid gap-2"><button type="submit" class="btn btn-primary btn-block mt-3">Submit</button></div>
                         </div>
                     </form>
